@@ -1,0 +1,49 @@
+model_name: "unsloth/Qwen3-14B"
+augment_model_name: "Qwen/Qwen3-14B"
+fine_tuned_model_name: "JuyeopDang/Qwen-3-14B-Sentence-Ordering"
+
+bnb_config:
+  load_in_4bit: True
+  bnb_4bit_use_double_quant: False
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "bfloat16"
+
+auto_model:
+  device_map: "auto"
+  torch_dtype: "bfloat16"
+  trust_remote_code: True
+
+lora:
+  r: 32
+  lora_alpha: 32
+  lora_dropout: 0
+  bias: "none"
+  use_gradient_checkpointing: "unsloth"
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  use_rslora: True
+
+sft:
+  per_device_train_batch_size: 32
+  gradient_accumulation_steps: 2
+  bf16: True
+  optim: "paged_adamw_32bit"
+  num_train_epochs: 3
+  logging_steps: 20
+  warmup_ratio: 0.05
+  logging_strategy: "steps"
+  learning_rate: 8e-5
+  weight_decay: 0.01
+  report_to: "tensorboard"
+  save_strategy: "steps"
+  save_total_limit: 20
+  save_steps: 100
+  lr_scheduler_type: "linear"
+
+augment_config:
+  max_new_tokens: 2048
+  use_cache: True
+  do_sample: True
+  temperature: 0.8
+  top_p: 0.9
+  top_k: 50
+  min_p: 0
