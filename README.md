@@ -26,7 +26,7 @@
 
 ## 코드
 
-경진 대회에 사용한 모든 코드는 [notebooks](/notebooks) 폴더에서 확인할 수 있습니다. 
+경진 대회에 사용한 모든 코드는 [notebooks](/notebooks) 폴더에서 확인할 수 있습니다. 또한, 각 모델의 예측은 [notebooks/prediction](/notebooks/prediction) 폴더에서 확인할 수 있습니다.
 
 ### 주의 사항
 
