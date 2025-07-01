@@ -35,4 +35,4 @@
 
 ## 기타 자료
 
-가장 성능이 높았던 단일 모델은 [여기](https://huggingface.co/JuyeopDang/Qwen-3-14B-Sentence-Ordering)에서 확인할 수 있습니다. 사용 방법은 [notebooks](/notebooks) 폴더의 [5-final-evaluation(L4)](notebooks/5-final-evaluation(L4).ipynb)를 참고해 주시기 바랍니다.
+가장 성능이 높았던 모델(체크 포인트 1200, 1400, 2400)은 [여기](https://huggingface.co/JuyeopDang/Qwen-3-14B-Sentence-Ordering)에서 확인할 수 있습니다. 사용 방법은 [notebooks](/notebooks) 폴더의 [5-final-evaluation(L4)](notebooks/5-final-evaluation(L4).ipynb)를 참고해 주시기 바랍니다.
