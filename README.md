@@ -4,7 +4,7 @@
 
 ## 개요
 
-데이콘의 [문맥 기반 문장 순서 예측 AI 경진대회](https://dacon.io/competitions/official/236489/overview/description)에서 3위를 달성한 솔루션을 소개하는 저장소입니다. 코드 공유 및 솔루션 소개 PPT는 [여기](later...)에서 확인할 수 있습니다. 
+데이콘의 [문맥 기반 문장 순서 예측 AI 경진대회](https://dacon.io/competitions/official/236489/overview/description)에서 3위를 달성한 솔루션을 소개하는 저장소입니다. 코드 공유 및 솔루션 소개 PPT는 [여기](https://dacon.io/competitions/official/236489/codeshare/12519?page=1&dtype=recent)에서 확인할 수 있습니다. 
 
 ## 환경
 
