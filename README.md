@@ -26,7 +26,9 @@
 
 ## 코드
 
-경진 대회에 사용한 모든 코드는 [notebooks](/notebooks) 폴더에서 확인할 수 있습니다. 또한, 각 모델의 예측과 최종 Ensemble 예측은 [notebooks/prediction](/notebooks/prediction) 폴더에서 확인할 수 있습니다.
+- 경진 대회에 사용한 모든 코드는 [notebooks](/notebooks) 폴더에서 확인할 수 있습니다.
+- 각 모델의 예측과 최종 Ensemble 예측은 [notebooks/prediction](/notebooks/prediction) 폴더에서 확인할 수 있습니다.
+- [runs](/runs) 폴더에는 tensorboard의 로그 파일이 저장되어 있습니다.
 
 ### 주의 사항
 
